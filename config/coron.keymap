@@ -203,8 +203,8 @@
         NUM {
             bindings = <
 &trans  &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp JP_AMPERSAND  &kp JP_QUOTE  &kp JP_LPAREN  &kp JP_RPAREN  &kp JP_EQUAL  &kp JP_TILDE
-&trans  &kp N1           &kp N2         &kp N3    &kp N4      &kp N5       &trans            &trans        &kp N6         &kp N7         &kp N8        &kp N9        &kp N0        &trans
-&trans  &trans           &trans         &trans    &trans      &trans       &trans            &trans        &kp COMMA      &kp PERIOD     &kp KP_SLASH  &trans
+&trans  &kp N1           &kp N2         &kp N3    &kp N4      &kp N5       &trans            &trans        &kp N6         &kp N7         &kp N8        &kp N9       &kp N0  &trans
+&trans  &trans           &trans         &trans    &trans      &trans       &trans            &trans        &trans         &trans         &kp COMMA     &kp PERIOD   &kp KP_SLASH  &trans
 &trans  &trans           &trans         &trans    &trans      &trans       &trans            &trans        &trans         &trans         &trans
             >;
         };
