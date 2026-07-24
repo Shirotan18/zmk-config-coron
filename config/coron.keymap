@@ -42,62 +42,6 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        /* Note: Key positions have shifted due to added columns. 
-           You will need to recalculate these indices later. 
-
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        double_quotation {
-            bindings = <&kp JP_DQUOTE>; /* 修正：JIS定義コードへ最適化 */
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp JP_EQUAL>; /* 修正：JIS定義コードへ最適化 */
-            key-positions = <24 25>;
-        };
-        question {
-            bindings = <&kp QUESTION>; /* QUESTION はZMK標準のままでJISでも「？」になります */
-            key-positions = <38 39>;
-        };
-        muhenkan {
-            bindings = <&kp INT_MUHENKAN>;
-            key-positions = <7 8>;
-        };
-        combo_key_23_24 {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <23 24>;
-        };
-
-        click_left {
-            bindings = <&mkp MB1>;
-            key-positions = <21 22>;
-        };
-
-        click_right {
-            bindings = <&mkp MB2>;
-            key-positions = <22 23>;
-        };
-
-        click_middle {
-            bindings = <&mkp MB3>;
-            key-positions = <22 36>;
-        };
-
-        to_scroll_layer {
-            bindings = <&mo 5>;
-            key-positions = <21 22 23>;
-        };
-
-*/
-    };
-
     macros {
         to_layer_0: to_layer_0 {
             compatible = "zmk,behavior-macro-one-param";
