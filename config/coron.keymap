@@ -46,7 +46,7 @@
         compatible = "zmk,combos";
 
         /* Note: Key positions have shifted due to added columns. 
-           You will need to recalculate these indices later. */
+           You will need to recalculate these indices later. 
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
@@ -94,6 +94,8 @@
             bindings = <&mo 5>;
             key-positions = <21 22 23>;
         };
+
+*/
     };
 
     macros {
