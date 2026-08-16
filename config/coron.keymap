@@ -134,6 +134,16 @@
             tapping-term-ms = <200>;
             bindings = <&kp ESC>, <&kp JP_HANZEN>;
         };
+        td_layer: td_layer {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+        
+            bindings =
+                <&lt 2 INT_HENKAN>,
+                <&lt 8 INT_HENKAN>;
+        };
+
     };
 
 
