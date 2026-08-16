@@ -181,7 +181,7 @@
 
         ARROW {
             bindings = <
-                &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(HOME)  &kp HOME  &kp UP_ARROW  &kp END  &kp LC(END)  &trans
+                &trans  &trans  &trans  &kp JP_DQUOTE  &kp DOLLAR  &trans  &kp LC(HOME)  &kp HOME  &kp UP_ARROW  &kp END  &kp LC(END)  &trans
                 &trans  &trans  &trans  &lt_bracket JP_LBRACKET JP_LPAREN  &lt_bracket JP_RBRACKET JP_RPAREN  &trans  &trans  &trans  &kp LC(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(RIGHT_ARROW)  &kp LA(ENTER)
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F2  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &trans
@@ -219,8 +219,8 @@
 
         layer_7 {
             bindings = <
-                &trans  &trans  &trans  &kp JP_LBRACKET  &kp JP_RBRACKET  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &lt_bracket JP_TILDE JP_CARET  &lt_bracket JP_PIPE JP_YEN
-                &trans  &kp LEFT_SHIFT  &trans  &kp LEFT_PARENTHESIS  &kp RPAR  &trans  &trans  &trans  &trans  &trans  &lt_bracket JP_PLUS SEMI  &lt_bracket JP_ASTERISK JP_COLON  &trans  &trans
+                &trans  &trans  &trans  &lt_bracket JP_LBRACE JP_LBRACKET  &lt_bracket JP_RBRACE JP_RBRACKET  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &lt_bracket JP_TILDE JP_CARET  &lt_bracket JP_PIPE JP_YEN
+                &trans  &kp LEFT_SHIFT  &trans  &kp JP_LPAREN  &kp JP_RPAREN  &trans  &trans  &trans  &trans  &trans  &lt_bracket JP_PLUS SEMI  &lt_bracket JP_ASTERISK JP_COLON  &trans  &trans
                 &trans  &kp LCTRL  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LALT  &trans  &trans
             >;
