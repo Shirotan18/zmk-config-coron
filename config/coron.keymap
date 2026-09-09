@@ -93,6 +93,11 @@
             bindings = <&kp PRINTSCREEN>;
             key-positions = <36 37 48>;
         };
+        capslock {
+            bindings = <&kp LS(CAPS)>;
+            key-positions = <12 26>;
+            layers = <3>;
+        };
     };
 
     macros {
@@ -178,8 +183,8 @@
         ARROW {
             bindings = <
                 &trans  &trans  &trans  &kp JP_DQUOTE  &kp DOLLAR  &trans  &kp LC(HOME)  &kp HOME  &kp UP_ARROW  &kp END  &kp LC(END)  &trans
-                &trans  &trans  &trans  &lt_bracket JP_LBRACKET JP_LPAREN  &lt_bracket JP_RBRACKET JP_RPAREN  &trans  &trans  &trans  &kp LC(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(RIGHT_ARROW)  &kp LA(ENTER)
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F2  &trans  &trans  &trans  &trans
+                &kp LA(TAB)  &trans  &trans  &lt_bracket JP_LBRACKET JP_LPAREN  &lt_bracket JP_RBRACKET JP_RPAREN  &trans  &trans  &trans  &kp LC(LEFT_ARROW)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(RIGHT_ARROW)  &kp LA(ENTER)
+                &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &kp F2  &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &trans
             >;
 
